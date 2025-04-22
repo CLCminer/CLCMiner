@@ -20,3 +20,5 @@ jobs:
           user: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           localDir: "./"
+          timeout-minutes: 10  # Adicione isso ao seu job para definir um limite de tempo
+
